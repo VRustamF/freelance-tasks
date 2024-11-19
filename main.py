@@ -20,7 +20,8 @@ def main():
 
     # Add moving average to the data
     stock_data = dd.add_moving_average(stock_data)
-
+    
+    # Calculating the average closing price and output to the console
     dplt.calculate_and_display_average_price(stock_data)
 
     # Plot the data
