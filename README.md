@@ -49,3 +49,16 @@ python main.py
 ### data_plotting.py
 
 Этот модуль отвечает за вычисление средней цены закрытия и построение графиков.
+
+## Пример результата работы кода
+
+### Созданный и сохраненный график
+
+![AAPL_1mo_stock_price_chart](https://github.com/user-attachments/assets/abf9a856-4fe1-4740-bf4e-d368fb0716f3)
+
+### Вывод средней цены закрытия в консоль
+
+![Снимок экрана 2024-11-19 092221](https://github.com/user-attachments/assets/9721603c-4a10-4673-b0b5-c63e04c74e53)
+
+
+
