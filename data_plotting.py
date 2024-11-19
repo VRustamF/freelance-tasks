@@ -3,6 +3,9 @@ import pandas as pd
 
 
 def calculate_and_display_average_price(data):
+    """
+    Вычисляет и выводит среднюю цену закрытия акций за заданный период в консоль.
+    """
     if 'Close' not in data.columns:
         print("Ошибка: Колонка 'Close' отсутствует в переданных данных.")
         return
@@ -11,6 +14,10 @@ def calculate_and_display_average_price(data):
 
 
 def create_and_save_plot(data, ticker, period, filename=None):
+    """
+    Создаёт график, отображающий цены закрытия и скользящие средние.
+    Сохраняет график в файл.
+    """
     plt.figure(figsize=(10, 6))
 
     if 'Date' not in data:
